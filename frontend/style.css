@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00c19a;
+  background: transparent;
+}
+
+body {
+  background-image: linear-gradient(#4c506c, #00c19a, #ffffbc, #00c19a);
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  border: solid;
+  margin: 0 auto;
+  padding: 0.3rem;
+  background: #232528;
+}
+.container-header h1 {
+  font-family: "Mystery Quest";
+  letter-spacing: 7px;
+  font-size: 2.2rem;
+}
+.container-header button {
+  width: 10rem;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 20px;
+  font-weight: 600;
+  background: #ffffbc;
+}
+.container-header button:hover {
+  filter: brightness(0.9);
+  color: #00c19a;
+}
+.container-header button:hover a {
+  color: #00c19a;
+}
+.container-header button a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #00c19a;
+  background: transparent;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-colaborador {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.colaborador-content {
+  width: 350px;
+  margin: 1rem;
+  background: #4c506c;
+  overflow-y: hidden;
+}
+
+.main {
+  max-width: 480px;
+  height: 500px;
+  background: #f3f1ee;
+  padding: 5px 1px;
+  overflow: auto;
+  margin: auto 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  background: #232528;
+}
+
+.head {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+.head h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.head #h1Cadastro {
+  display: block;
+}
+.head #h1Editar {
+  display: none;
+}
+
+.form-content {
+  margin: 5px;
+}
+.form-content label {
+  margin: 0;
+}
+.form-content input {
+  padding: 1px 0 1px 15px;
+}
+
+.modalCafe {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: rgba(96, 96, 96, 0.407);
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: collapse;
+}
+
+.modalCafe > .container-modal {
+  position: relative;
+  width: 350px;
+  height: 165px;
+  background: rgba(255, 255, 255, 0.982);
+  z-index: 1;
+  border: none;
+  border-radius: 5px;
+  padding-top: 0px;
+}
+.modalCafe > .container-modal .coffee {
+  border: none;
+  margin-top: 15px;
+}
+.modalCafe > .container-modal .closeModal {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  margin: 4px;
+  width: 1.3rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: 100ms;
+}
+.modalCafe > .container-modal .closeModal:hover {
+  color: white;
+  background: gray;
+}
+.modalCafe > .container-modal .closeModal #btnCloseModalEdit {
+  border: none;
+  background: transparent;
+}
+
+.coffee {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coffee button {
+  margin-bottom: 5px;
+}
+
+.table-container {
+  overflow: hidden;
+  margin: 0 auto;
+  height: 140px;
+}
+
+.scroll-table {
+  width: 113%;
+  height: 130px;
+  overflow-y: scroll;
+}
+
+.table {
+  margin-top: 10px;
+  margin: 5px auto;
+}
+.table th, .table tr {
+  font-size: 1rem;
+  padding: 0 auto;
+  margin: 0;
+}
+
+.btn {
+  padding: 3px;
+}
+
+#svgEdit, #svgDelete {
+  width: 20px;
+}
+
+.btnCadastrar {
+  margin: 0 auto 7px;
+}
+
+@media (max-width: 825px) {
+  .container-colaborador {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 765px) {
+  .container-header {
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+  }
+  .container-header h1 {
+    font-size: 5.4vw;
+    text-align: center;
+  }
+  .container-header nav {
+    margin-right: 1rem;
+  }
+  .container-header nav button {
+    width: 17vw;
+    padding: 0.4vw;
+  }
+  .container-header nav button a {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 400px) {
+  .main {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    margin: 0;
+  }
+
+  .head h1 {
+    font-size: 4vw;
+  }
+
+  .form-content {
+    width: 99%;
+    margin: 1px;
+  }
+}/*# sourceMappingURL=style.css.map */
