@@ -1,4 +1,4 @@
-# desafio-unuidac-gerenciarCafeDaManha
+# desafio-unidac-gerenciarCafeDaManha
 Desafio Unidac - Grupo WL
 
 ### Link do projeto em produção:
@@ -38,8 +38,8 @@ utilizando JAVA no backend com Spring Boot e HTML,CSS,SCSS e JavaScript no fonte
  HTML / CSS / SCSS
  JavaScript
 ## Implantação em produção
- Back end: Heroku
- Front end web: Netlify
+ Back end: Heroku |
+ Front end web: Netlify |
  Banco de dados: Postgresql
 
 # Como executar o projeto
