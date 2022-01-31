@@ -8,7 +8,7 @@ Desafio Unidac - Grupo WL
 # Sobre o projeto
 
 Este projeto foi um desafio para desenvolver uma aplicação web para gerenciar o café da manhã na empresa,
-utilizando JAVA no backend com Spring Boot e HTML,CSS,SCSS e JavaScript no fontend
+utilizando JAVA no backend com Spring Boot e HTML,CSS,SCSS e JavaScript no frontend
 
 # Realizamos café da manhã constantemente e sempre há conflito no merge kkkk
 # Sempre há pessoas que querem trazer pão, bolo, suco...
