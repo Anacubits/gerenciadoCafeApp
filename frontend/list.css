@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #00c19a;
-  background: #232528;
+  color: #1a1a2e; /* Azul escuro para texto */
+  background: #a8dadc; /* Azul claro para fundo */
 }
 
 header {
@@ -14,12 +14,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background: #457b9d; /* Azul médio para fundo do cabeçalho */
 }
 header h1 {
   font-family: "Mystery Quest";
   letter-spacing: 10px;
   font-size: 3rem;
   text-align: center;
+  color: #f4a261; /* Tom laranja para o título */
 }
 header button {
   width: 10rem;
@@ -27,19 +29,19 @@ header button {
   padding: 0.3rem;
   border-radius: 20px;
   font-weight: 600;
-  background: #ffffbc;
+  background: #e76f51; /* Tom laranja mais escuro para botão */
 }
 header button:hover {
   filter: brightness(0.9);
-  color: #00c19a;
+  color: #1a1a2e;
 }
 header button:hover a {
-  color: #00c19a;
+  color: #1a1a2e;
 }
 header button a {
   text-decoration: none;
   font-size: 1.2rem;
-  color: #00c19a;
+  color: #1a1a2e;
   background: transparent;
 }
 
@@ -53,7 +55,7 @@ header button a {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-image: linear-gradient(#4c506c, #00c19a, #ffffbc, #00c19a 50%);
+  background-image: linear-gradient(#1a1a2e, #e76f51, #f4a261, #e76f51 50%); /* Gradiente com tons de azul e laranja */
 }
 
 .header {

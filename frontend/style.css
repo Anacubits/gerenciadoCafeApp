@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #00c19a;
-  background: transparent;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a2e; /* Azul escuro para texto */
+  background: #a8dadc; /* Azul claro para fundo */
 }
 
 body {
-  background-image: linear-gradient(#4c506c, #00c19a, #ffffbc, #00c19a);
+  background-image: linear-gradient(#457b9d, #1a1a2e, #1a1a2e, #1a1a2e); /* Gradiente com tons de azul */
 }
 
 .container-header {
@@ -19,33 +19,38 @@ body {
   border: solid;
   margin: 0 auto;
   padding: 0.3rem;
-  background: #232528;
-}
-.container-header h1 {
-  font-family: "Mystery Quest";
-  letter-spacing: 7px;
-  font-size: 2.2rem;
-}
-.container-header button {
-  width: 10rem;
-  border: none;
-  padding: 0.3rem;
-  border-radius: 20px;
-  font-weight: 600;
-  background: #ffffbc;
-}
-.container-header button:hover {
-  filter: brightness(0.9);
-  color: #00c19a;
-}
-.container-header button:hover a {
-  color: #00c19a;
-}
-.container-header button a {
-  text-decoration: none;
-  font-size: 1.1rem;
-  color: #00c19a;
-  background: transparent;
+  background: #1a1a2e; /* Azul escuro para o fundo do cabeçalho */
+
+  & h1 {
+    font-family: 'Mystery Quest';
+    letter-spacing: 7px;
+    font-size: 2.2rem;
+    color: #f4a261; /* Tom laranja para o título */
+  }
+
+  button {
+    width: 10rem;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 20px;
+    font-weight: 600;
+    background: #e76f51; /* Tom laranja mais escuro para botão */
+
+    &:hover {
+      filter: brightness(0.9);
+      color: #1a1a2e;
+      & a {
+        color: #1a1a2e;
+      }
+    }
+
+    & a {
+      text-decoration: none;
+      font-size: 1.1rem;
+      color: #1a1a2e;
+      background: transparent;
+    }
+  }
 }
 
 section {
@@ -65,20 +70,20 @@ section {
 .colaborador-content {
   width: 350px;
   margin: 1rem;
-  background: #4c506c;
+  background: #1a1a2e; /* Azul escuro para fundo do conteúdo */
   overflow-y: hidden;
 }
 
 .main {
   max-width: 480px;
   height: 500px;
-  background: #f3f1ee;
+  background: #f3f1ee; /* Bege claro para fundo */
   padding: 5px 1px;
   overflow: auto;
   margin: auto 0;
   border-radius: 10px;
   box-shadow: 0 0 10px black;
-  background: #232528;
+  background: #1a1a2e; /* Azul escuro para o fundo principal */
 }
 
 .head {
@@ -86,26 +91,30 @@ section {
   display: flex;
   justify-content: center;
   padding-top: 5px;
-}
-.head h1 {
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-.head #h1Cadastro {
-  display: block;
-}
-.head #h1Editar {
-  display: none;
+
+  h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1a1a2e; /* Azul escuro para o título */
+  }
+
+  & #h1Cadastro {
+    display: block;
+  }
+  & #h1Editar {
+    display: none;
+  }
 }
 
 .form-content {
   margin: 5px;
-}
-.form-content label {
-  margin: 0;
-}
-.form-content input {
-  padding: 1px 0 1px 15px;
+
+  label {
+    margin: 0;
+  }
+  input {
+    padding: 1px 0 1px 15px;
+  }
 }
 
 .modalCafe {
@@ -114,7 +123,7 @@ section {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background: rgba(96, 96, 96, 0.407);
+  background: #f1ecec; /* Bege claro para fundo do modal */
   z-index: 3;
   display: flex;
   justify-content: center;
@@ -132,10 +141,12 @@ section {
   border-radius: 5px;
   padding-top: 0px;
 }
+
 .modalCafe > .container-modal .coffee {
   border: none;
   margin-top: 15px;
 }
+
 .modalCafe > .container-modal .closeModal {
   position: absolute;
   z-index: 3;
@@ -146,14 +157,16 @@ section {
   cursor: pointer;
   border-radius: 25px;
   transition: 100ms;
-}
-.modalCafe > .container-modal .closeModal:hover {
-  color: white;
-  background: gray;
-}
-.modalCafe > .container-modal .closeModal #btnCloseModalEdit {
-  border: none;
-  background: transparent;
+
+  &:hover {
+    color: white;
+    background: gray;
+  }
+
+  & #btnCloseModalEdit {
+    border: none;
+    background: transparent;
+  }
 }
 
 .coffee {
@@ -162,9 +175,10 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.coffee button {
-  margin-bottom: 5px;
+
+  button {
+    margin-bottom: 5px;
+  }
 }
 
 .table-container {
@@ -182,18 +196,21 @@ section {
 .table {
   margin-top: 10px;
   margin: 5px auto;
-}
-.table th, .table tr {
-  font-size: 1rem;
-  padding: 0 auto;
-  margin: 0;
+
+  th,
+  tr {
+    font-size: 1rem;
+    padding: 0 auto;
+    margin: 0;
+  }
 }
 
 .btn {
   padding: 3px;
 }
 
-#svgEdit, #svgDelete {
+#svgEdit,
+#svgDelete {
   width: 20px;
 }
 
@@ -207,27 +224,33 @@ section {
     align-items: center;
   }
 }
+
 @media (max-width: 765px) {
   .container-header {
     width: 100%;
     margin: 0;
     justify-content: center;
-  }
-  .container-header h1 {
-    font-size: 5.4vw;
-    text-align: center;
-  }
-  .container-header nav {
-    margin-right: 1rem;
-  }
-  .container-header nav button {
-    width: 17vw;
-    padding: 0.4vw;
-  }
-  .container-header nav button a {
-    font-size: 3vw;
+
+    & h1 {
+      font-size: 5.4vw;
+      text-align: center;
+    }
+
+    & nav {
+      margin-right: 1rem;
+
+      & button {
+        width: 17vw;
+        padding: 0.4vw;
+
+        & a {
+          font-size: 3vw;
+        }
+      }
+    }
   }
 }
+
 @media (max-width: 400px) {
   .main {
     width: 100%;
@@ -244,4 +267,4 @@ section {
     width: 99%;
     margin: 1px;
   }
-}/*# sourceMappingURL=style.css.map */
+}

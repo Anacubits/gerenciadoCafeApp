@@ -49,7 +49,7 @@ Pré-requisitos: Java 11
 
 ```bash
 # clonar repositório
-git clone https://github.com/paulobrunosoares/desafio-unuidac-gerenciarCafeDaManha
+git clone https://github.com/Anacubits/desafio-unidac-grupo-wl.git
 
 # entrar na pasta do projeto back end
 cd backend
@@ -62,21 +62,15 @@ Obs: O servidor iniciará na porta 8080 - Acesse <http://localhost:8080>
 ```
 
 
-```bash
-# clonar repositório
-git clone https://github.com/paulobrunosoares/desafio-unuidac-gerenciarCafeDaManha
-
-```
-
 # Autor
 
 <div align="center">
   
-***Paulo Bruno da Silva Soares***
+***Ana Cubits***
 
-https://github.com/paulobrunosoares
+https://github.com/Anacubits
 
-https://www.linkedin.com/in/paulo-soares-29940b70/
+https://www.linkedin.com/in/ana-vict%C3%B3ria-4462101a3/
 
 </div>
 
