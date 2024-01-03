@@ -1,4 +1,4 @@
-# desafio-unidac-gerenciarCafeDaManha
+# desafio-gerenciarCafeDaManha
 Desafio Unidac - Grupo WL
 
 ### Link do projeto em produção:
@@ -17,13 +17,6 @@ utilizando JAVA no backend com Spring Boot e HTML,CSS,SCSS e JavaScript no front
 #### Utilizar NativeQuery para inserção, atualização, consulta e exclusão.
 #### Não poderá repetir cpf.
 #### Não poderá repetir opção de café da manhã mesmo que seja outro colaborador. 
-
-## Layout web
-<div align="center">
-
-<kbd><img src="./assets/tela1.png" alt="Tablet" width="1000px;" height="450px;"/></kbd> 
-
-<kbd><img src="./assets/tela2.png" alt="Tablet" width="1000px;" height="450px;"/></kbd>
 
 
 # Tecnologias utilizadas
