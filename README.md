@@ -2,7 +2,7 @@
 Desafio Unidac - Grupo WL
 
 ### Link do projeto em produção:
-###### Frontend -> https://cafeunidac.netlify.app
+###### Frontend -> [cafeappp.netlify.app](https://cafeappp.netlify.app/)
 ###### Backend -> https://desafioapp.herokuapp.com
 
 # Sobre o projeto
